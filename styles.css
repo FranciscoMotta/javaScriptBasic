@@ -1,0 +1,10 @@
+#titulo {
+    color: brown;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+#cuerpoPrincipal {
+    text-align: center;
+}
