@@ -8,6 +8,13 @@ h1 {
     text-decoration-line: underline;
 }
 
+h2 {
+    font-size: 30px;
+    color: blue;
+    font-family: 'Lucida Sans';
+    text-decoration-line: underline;
+}
+
 #cuerpoPrincipal {
     text-align: center;
     background: white;
