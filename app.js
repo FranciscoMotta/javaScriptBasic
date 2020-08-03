@@ -33,7 +33,11 @@ Representación abstracta de un objeto en la vida real
 */
 
 
-var nombre = prompt("Ingresa tu nombre");
+var nombre = prompt("Ingresa tu nombre"); //El prompt es para pedir datos externos
+
+var username2 = "Julio"; //Variable
+
+let lastName = "Motta"; //Otro tipo de variable
 
 if (nombre === "Julio") {
     document.write("<h2>Bienvenido galán</h2>");
@@ -45,6 +49,8 @@ if (nombre === "Julio") {
         "points": 14,
         "time": 13.4
     });
+    console.log(username2);
+    console.log(lastName);
 } else {
     document.write("<h2>You're not me</h2>");
 }
