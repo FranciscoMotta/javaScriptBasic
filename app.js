@@ -37,6 +37,14 @@ var nombre = prompt("Ingresa tu nombre");
 
 if (nombre === "Julio") {
     document.write("<h2>Bienvenido galán</h2>");
+    console.log("It's a String");
+    console.log(1, 2, 3, 4);
+    console.log(true);
+    console.log({
+        "username": "Julio",
+        "points": 14,
+        "time": 13.4
+    });
 } else {
     document.write("<h2>You're not me</h2>");
 }
