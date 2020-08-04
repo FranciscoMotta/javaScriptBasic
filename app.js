@@ -51,12 +51,29 @@ switch (typeCard) {
 
 var variableContador = 0;
 
+//Iterador WHILE
+
 while (variableContador < 50) { //Comparación
     console.log(variableContador); //Acción
     variableContador++; //Modificación de la variable de condición
     document.write("<h3> " + variableContador + "</h3>")
 }
 
+//Iterador FOR
+
+var nombresUsers = ["Julio", "Luis", "Francisco", "Victor", "Wels"];
+
+//Iteración ascendente
+
+for (let index = 0; index < nombresUsers.length; index++) {
+    document.write("<h3> Bienvenido " + nombresUsers[index] + " </h3>");
+}
+
+//Iteración descendente
+
+for (let indexForDecrement = nombresUsers.length - 1; indexForDecrement >= 0; indexForDecrement--) {
+    document.write("<h3> Bienvenido " + nombresUsers[indexForDecrement] + " </h3>");
+}
 var nombre = prompt("Ingresa tu nombre"); //El prompt es para pedir datos externos
 
 var username2 = "Julio"; //Variable
