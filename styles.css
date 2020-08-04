@@ -15,6 +15,11 @@ h2 {
     text-decoration-line: underline;
 }
 
+h3 {
+    font-size: 20px;
+    color: brown;
+}
+
 #cuerpoPrincipal {
     text-align: center;
     background: white;
